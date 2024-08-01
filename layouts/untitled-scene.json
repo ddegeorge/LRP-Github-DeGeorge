@@ -33,9 +33,25 @@
       "name": "NewSprite",
       "persistentUuid": "9e05e46a-a131-4a07-b43d-9b010b71edcc",
       "width": 0,
-      "x": 947,
-      "y": 327,
+      "x": 745,
+      "y": 428,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "fdd3ec24-c25e-4ac4-82b4-f206eccc780d",
+      "width": 0,
+      "x": 1246,
+      "y": 431,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -102,6 +118,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 5
+                      },
+                      {
+                        "x": 37,
+                        "y": 50
+                      },
+                      {
+                        "x": 8,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -109,6 +186,9 @@
     "children": [
       {
         "objectName": "NewSprite"
+      },
+      {
+        "objectName": "NewSprite2"
       }
     ]
   },
